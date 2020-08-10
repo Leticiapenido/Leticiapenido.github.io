@@ -1,0 +1,312 @@
+body{
+  margin:0;
+}
+/*capa*/
+#capa{
+  background: url(Imagens/capa1.png);
+ background-size: cover;
+  height:700px;
+  color: #FAD100;
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 25px;
+  font-size: 40px;
+  text-shadow: rgb(77, 72, 3) -5px -3px;
+  font-family: 'Cabin', sans-serif;
+  
+}
+/*link*/
+a{
+  text-decoration: none;
+  color: black;
+}
+/*titulo do projeto*/
+h2{
+  color: #FAD100;
+  text-align: center;
+  font-size: 50px;
+ margin: 0;
+ padding: 5%;
+ text-shadow:  black 5px -2px;
+ font-family: 'Questrial', sans-serif;
+}
+.colunas{
+  float:left;
+  padding: 1%;
+}
+
+.colunas .imagem{
+  width: 100%;
+  height: 300px;
+}
+/* sobre o projeto*/
+#projeto
+{
+  background-color:#FCB3EA;
+  padding-left: 1%;
+  padding-right: 1%;
+  
+}
+#paragrafo1{
+  font-size: 24px;
+  font-family: 'Noto Sans', sans-serif;
+  width: 50%;
+  height: 50%;
+  padding-left:30px;
+  text-align: justify;
+  float:left;
+  padding-bottom:50px;
+  
+} 
+#video1{
+  float: left;
+  width:45%;
+  height: 45%;
+}
+#paragrafo2{
+  font-size: 24px;
+  font-family: 'Noto Sans', sans-serif;
+  width: 48%;
+  height: 50%;
+  padding-right:40px;
+  text-align: justify;
+  float:right;
+ 
+}
+#video2{
+  float: right;
+  width:45%;
+  height: 50%;
+  margin-bottom:5%;
+}
+/*metas*/
+#metas{
+  background-color: #DB97E6;
+  padding: 5%;
+  
+}
+h3{
+   text-align: center;
+   font-family: 'Questrial', sans-serif;
+   font-size: 39px;
+   color: #bb0044;
+   text-shadow:  black 3.3px -2px;
+   
+  
+}
+
+.quadrados{
+  width: 40%;
+   padding: 0 5% 2% 5%;
+}
+.icones{
+  width: 180px;
+  height: 180px;
+  margin: 0;
+  margin-left:150px;
+}
+.texto{
+  text-align: center; 
+  font-family: 'Noto Sans', sans-serif;
+font-size: 23px;
+}
+#asmetas{
+  color: #FAD100;
+  text-align: center;
+  font-size: 90px;
+  padding:0;
+ content:0 1% 0 1%;
+ text-shadow:  black -8px -1px;
+ font-family: 'Questrial', sans-serif;
+}
+
+
+#logo{
+  width: 80px;
+  height:80px;
+}
+header{
+  background-color:#FEAEA8;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+}
+ul{
+  list-style:none;
+ margin: 0;
+}
+li{
+  float: right;
+  padding:25px;
+}
+/*footer*/
+li:hover{
+  background-color: #ec7593;
+}
+
+.icones:hover{
+  background-color: #ff56d5;
+  border:80%;
+
+  
+}
+  /*como ajudar*/
+  #comoajudar{
+    background-color: #9885C2;
+    width:98%;
+  }
+  .ajuda{
+    width: 400px;
+    height: 400px;
+    border: 0;
+    margin-left: 25px;
+  }
+  .textoajuda{
+    text-align: center; 
+    font-family: 'Noto Sans', sans-serif;
+   font-size: 20px;
+   width: 400px;
+   margin-left: 25px;
+   }
+  .trio{
+    width: 33%;
+    float: left;
+    
+    
+    }
+   #tituloajuda{
+    color: #FAD100;
+    text-align: center;
+    font-size: 90px;
+    content: 0;
+    text-shadow:  black -8px -1px;
+    font-family: 'Questrial', sans-serif;
+   }
+
+/*inicio e fim*/
+#contato{
+  background-color:#F294AB;
+  width: 99%;
+  font-size: 20px;
+  font-family: 'Noto Sans', sans-serif;
+  text-align: center;
+}
+#menu{
+  float: right;
+  margin: auto;
+  height: 60px;
+  font-size: 20px;
+  font-family: 'Noto Sans', sans-serif;
+}
+.flutuar{
+  float:left;
+  padding-left: 1%;
+}
+@media screen and (max-width:768px){
+  
+  .colunas,.duo, .trio, .quadrados{
+    display: block;
+      width: 80%;
+      padding: 0;
+  }  
+  
+  #projeto{
+    width:400%;
+    }
+  #video1, #video2{
+    width: 70%;
+    margin: 5%;
+    height: 55%;
+    padding-left:5%;
+  }
+  #paragrafo1, #paragrafo2{
+    width: 85%;
+    text-align: center;
+    font-size: 60px;
+    padding-left: 5%;
+  }
+  #paragrafo2{
+    height: 170%;
+    margin-right: 7%;
+  }
+  #video2{
+    
+    padding-top: 700px;
+    margin-right: 17%;
+   }
+  
+  h2{
+    color: #bb9d07;
+    text-align: center;
+    font-size: 80px;
+    margin: 0;
+    padding: 0;
+   text-shadow: none;
+  }
+  #metas{
+    width:390%;
+  }
+  #asmetas, #tituloajuda{
+    color: #bb9d07;
+    text-align: center;
+    font-size: 140px;
+    margin: 0;
+    padding: 0;
+   text-shadow: none;
+  }
+ h3{
+   text-align:center;
+   font-size: 70px;
+   text-shadow: none;
+   padding-left: 180px;
+   color: rgb(155, 8, 69);
+   text-shadow:  black 4px -3px;
+ }
+ .icones{
+   height: 80%;
+   width: 50%;
+   padding-left: 230px;
+ }
+ .texto{
+   font-size: 70px;
+   padding-left: 100px;
+   width: 100%;
+ }
+ #comoajudar, #contato{
+   width:400%;
+ }
+ #comoajudar{
+   background-color: #9e95ec;
+ }
+ 
+ .ajuda{
+   width: 100%;
+   height: 170%;
+   margin-top: 8%;
+   margin-left: 11%;
+  }
+  .textoajuda{
+    text-align: center;
+    margin-left: 13%;
+    font-size: 70px;
+    width: 90%;
+  }
+  #capa{
+    height: 115%;
+    width: 400%;
+    font-size: 45px;
+    color: #ff076e;
+    text-shadow:  black -9px -2px;
+  }
+  #menu, #contato{
+    font-size: 40px;
+  }
+  #menu{
+    height: 100px;
+  }
+  #logo{
+    width: 100px;
+  height:100px;
+  }
+}
+
